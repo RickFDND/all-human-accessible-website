@@ -1,0 +1,65 @@
+body{
+    display: grid;
+    grid-template-columns:100%;
+    grid-template-rows: 1fr 2fr 1fr 9fr 2fr 2fr 3fr 2fr;
+    background-color: black;
+    color: white;
+    height: 98vh;
+}
+
+h1{
+    grid-row: 2;
+    width:180px;
+    font-family: Calvino Grande Trial;
+    font-weight: 800;
+}
+
+h2{
+    grid-row: 5;
+    font-size: 48px;
+    font-family: Calvino Grande Trial;
+    font-weight: 800;
+}
+
+p{
+    grid-row: 6;
+    width: 339px;
+    font-family: Figtree;
+}
+
+.container{
+    grid-row: 7;
+}
+
+.button{
+    display: flex;
+    grid-row: 8;
+    justify-content: center;
+    gap: 5px;
+}
+
+button{
+    grid-row: 8 ;
+    justify-self: center;
+    align-self: center;
+    background-color: black;
+    color: white;
+    width: 45px;
+    height: 45px;
+    border-radius: 37.5px;
+    border: solid white 1px;
+    z-index: 2;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+img{
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    bottom: 0;
+    right: 0;
+}
