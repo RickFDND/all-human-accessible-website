@@ -13,21 +13,23 @@ body{
         }
 }
 
-article{
+.tekst{
     display: flex; 
     justify-content: center; 
     grid-row: 4;    
+    max-width: 390px;
     @media(min-width:890px){
         grid-row: 2;
     }
 }
 
-li{
-    display: flex;
-    justify-content: center;
-    grid-row: 5;
+.tekst2{
+    display: flex; 
+    justify-content: center; 
+    grid-row: 5;    
+    max-width: 390px;
     @media(min-width:890px){
-        grid-row: 3;
+        grid-row: 2;
     }
 }
 
@@ -35,6 +37,7 @@ p{
     color:white;
     max-width: 322px;
     font-family: Figtree;
+    min-width: 200px;
 }
 
 h1{
