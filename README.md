@@ -1,6 +1,6 @@
 # Accessible Website
 
-Ik werk voor de opdrachtgever Drop&Heal en zij willen dat ik een webapp maak die nog niet volledig af is. De website:
+Ik werk voor de opdrachtgever Drop&Heal en zij willen dat ik een webapp maak die nog niet volledig af is. De website: https://rickfdnd.github.io/all-human-accessible-website/index.html
 
 ## Inhoudsopgave
 
