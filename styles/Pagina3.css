@@ -6,6 +6,15 @@ body{
     background-position: right;
     height: 98vh;
     color: white;
+    @media(min-width:890px){
+    background-image: url(../IMG/bliksem.png);
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-position: center;
+    grid-row: 3;
+    background-position-x: 68em;
+    background-position-y: 10em;
+}
 }
 
 h1{
@@ -20,17 +29,24 @@ h2{
 
 p{
     grid-row: 6;
+    font-size: 18px;
+    @media(min-width:600px){
+        font-size: 20px;
+    }
+    @media(min-width:890px){
+        font-size: 26px;
+    }
 }
 
-div{
+.button{
     display: flex;
     grid-row: 8;
     justify-content: center;
     gap: 5px;
-
 }
 
-a{
+button{
+    grid-row: 8 ;
     justify-self: center;
     align-self: center;
     background-color: black;

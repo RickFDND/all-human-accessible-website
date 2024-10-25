@@ -38,7 +38,7 @@ p{
     gap: 5px;
 }
 
-a{
+button{
     grid-row: 8 ;
     justify-self: center;
     align-self: center;
@@ -48,7 +48,7 @@ a{
     height: 45px;
     border-radius: 37.5px;
     border: solid white 1px;
-    z-index: 2;
+    z-index: 1;
 }
 
 a{
